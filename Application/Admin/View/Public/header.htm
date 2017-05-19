@@ -61,7 +61,7 @@
                 <li id="d">
                     <a href="__APP__/admin/index/typography?id=4">
                         <i class="ti-text"></i>
-                        <p>财务</p>
+                        <p>财务管理</p>
                     </a>
                 </li>
                 <li id="e">
@@ -79,6 +79,46 @@
             </ul>
     	</div>
     </div>
+
+        <div class="main-panel">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" id="navss">综合统计</a>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a  class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="ti-face-smile"></i>
+                                <p>欢迎用户登录</p>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="ti-user"></i>
+                                    <p>用户名</p>
+                                    <b class="caret"></b>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">管理人信息</a></li>
+                                <li><a href="__APP__/admin/login/exit">退出</a></li>
+                              </ul>
+                        </li>
+                        <!-- <li>
+                            <a href="#">
+                                <i class="ti-settings"></i>
+                                <p>Settings</p>
+                            </a>
+                        </li> -->
+                    </ul>
+
+                </div>
+
+
+            </div>
+        </nav>
 <script type="text/javascript">
 
 function GetQueryString(name)
@@ -91,21 +131,27 @@ var ids = GetQueryString("id");
 
 if(ids == 1){
     $("#a").addClass("active");
+    $("#navss").text("综合统计");
 }
 if(ids == 2){
     $("#b").addClass("active");
+    $("#navss").text("用户管理");
 }
 if(ids == 3){
     $("#c").addClass("active");
+    $("#navss").text("彩票管理");
 }
 if(ids == 4){
     $("#d").addClass("active");
+    $("#navss").text("财务管理");
 }
 if(ids == 5){
     $("#e").addClass("active");
+    $("#navss").text("彩种统计");
 }
 if(ids == 6){
     $("#f").addClass("active");
+    $("#navss").text("系统设置");
 }
 
 </script>

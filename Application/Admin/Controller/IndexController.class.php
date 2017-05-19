@@ -6,6 +6,18 @@ class IndexController extends Controller {
 
 
     public function indexAction() {
+    	//
+        $admin_id = $_SESSION["id"];
+        
+    	$Sysuser = M("Sysuser"); // 实例化对象
+	    
+	    $data = $Sysuser->where("id = '$admin_id'")->find();
+	    //print_r($data);exit;
+        if(!$data){
+        	header("Location:http://localhost/lottery/admin/Login");
+        } 
+
+
 
      $this->display();
     }

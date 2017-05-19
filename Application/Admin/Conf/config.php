@@ -6,5 +6,8 @@ return array(
    '__JS__'     => '/Public/JS/', // 增加新的JS类库路径替换规则     
    '__UPLOAD__' => '/Uploads', // 增加新的上传路径替换规则
    '__ASSETS__' => __ROOT__.'/Public/assets/',
+   '__SCSS__' => __ROOT__.'/Public/css/',
+   '__LAYUI__' => __ROOT__.'/Public/layui/',
+   '__BOOTSTRAP__' => __ROOT__.'/Public/bootstrap/',
     )
 );
