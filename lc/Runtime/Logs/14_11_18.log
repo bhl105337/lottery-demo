@@ -1,0 +1,1266 @@
+[ 2014-11-18T15:25:28+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2014-11-18T15:29:52+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2014-11-18T15:46:07+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T15:48:42+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] ucfirst() expects parameter 1 to be string, array given E:\wamp\www\lcvip\ThinkPHP\Library\Think\Storage.class.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.000498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2014-11-18T15:55:50+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T15:55:51+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T15:55:52+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T15:55:53+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T15:59:08+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T15:59:09+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T16:06:09+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T16:08:08+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T16:08:08+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T16:08:09+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T16:09:37+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T16:09:38+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T16:09:38+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+ERR: 无法加载控制器:Admin
+
+[ 2014-11-18T16:10:12+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000285s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2014-11-18T16:15:17+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T16:15:18+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T16:15:31+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Public/header.html
+
+[ 2014-11-18T16:15:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Public/header.html
+
+[ 2014-11-18T16:16:34+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:16:35+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:16:35+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:16:36+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:18:06+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:21:03+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:21:04+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:21:04+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:21:05+08:00 ] 127.0.0.1 /lcvip/
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T16:21:06+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:21:08+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:23:31+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:24:24+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:24:25+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:31:01+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:31:02+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:31:03+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:36:01+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:36:03+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:37:44+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:37:48+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:37:49+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:37:50+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:37:50+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:37:52+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:38:47+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:38:55+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:41:06+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:41:07+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:41:08+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:44:55+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T16:51:13+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:51:18+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T16:51:24+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+ERR: 模板不存在:./lc/Admin/View/lc/admin/admin/login.html
+
+[ 2014-11-18T16:51:55+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+ERR: 模板不存在:./lc/Admin/View/lc/admin/login.html
+
+[ 2014-11-18T16:54:27+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+ERR: 模板不存在:./lc/Admin/View/lc/admin/login.html
+
+[ 2014-11-18T16:54:30+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+ERR: 模板不存在:./lc/Admin/View/lc/admin/login.html
+
+[ 2014-11-18T16:54:58+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T17:01:58+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T17:02:24+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T17:07:43+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T17:07:44+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T17:07:48+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+ERR: 模板不存在:./lc/Admin/View/lc/Admin/login.html
+
+[ 2014-11-18T17:19:41+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000627s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2014-11-18T17:22:21+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+ERR: 非法操作:index
+
+[ 2014-11-18T17:22:29+08:00 ] 127.0.0.1 /lcvip/index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.006206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2014-11-18T17:25:31+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000633s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/css/layout.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/jquery-1.3.2.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/hoverIntent.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/superfish.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006351s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/jquery-ui-1.7.2.custom.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001900s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/jquery.wysiwyg.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.003775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004268s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/custom.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/easyTooltip.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/jquery-ui-1.7.2.custom.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/jquery.wysiwyg.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/hoverIntent.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/superfish.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:25:32+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/js/custom.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:27:12+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000458s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000681s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2014-11-18T17:31:47+08:00 ] 127.0.0.1 /lcvip/index.php/admin/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000801s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019634s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2014-11-18T17:41:13+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+ERR: Think\Controller:view方法不存在！
+
+[ 2014-11-18T17:41:32+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009877s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+ERR: 模板不存在:./lc/Home/View/Layout/layout.htm
+
+[ 2014-11-18T17:41:33+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000675s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000900s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+ERR: 模板不存在:./lc/Home/View/Layout/layout.htm
+
+[ 2014-11-18T17:41:34+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+ERR: 模板不存在:./lc/Home/View/Layout/layout.htm
+
+[ 2014-11-18T17:42:51+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000398s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006221s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.005674s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2014-11-18T17:50:52+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000983s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006046s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003883s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2014-11-18T17:51:21+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004730s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003830s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004473s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2014-11-18T17:53:36+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004809s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003717s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001011s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001182s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000340s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004413s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003779s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000935s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/style.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/css3-mediaqueries.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/fwslider.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFGrid.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFFormStyle-1.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFCore.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFForms.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/fwslider.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/jquery-ui.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/fwslider.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/css3-mediaqueries.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/fwslider.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/jquery-ui.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFGrid.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFFormStyle-1.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFCore.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:56:53+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFForms.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000303s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003948s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003013s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000038s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/style.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001086s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/fwslider.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/fwslider.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/css3-mediaqueries.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001271s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/jquery-ui.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFGrid.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFCore.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFFormStyle-1.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFForms.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/fwslider.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.min.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/css3-mediaqueries.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/fwslider.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/jquery-ui.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001333s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/jquery-ui.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFFormStyle-1.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/css/JFGrid.css
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+ERR: 非法操作:css
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFCore.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:57:35+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/js/JFForms.js
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+ERR: 非法操作:js
+
+[ 2014-11-18T17:58:39+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003823s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002953s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000039s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2014-11-18T17:59:11+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000367s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004842s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003434s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001334s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000045s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2014-11-18T18:00:12+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000190s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005097s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003309s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2014-11-18T18:02:14+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001196s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003996s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.002991s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2014-11-18T18:02:16+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008775s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.005291s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003682s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000041s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2014-11-18T18:02:20+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.003844s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.003136s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000040s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2014-11-18T18:04:40+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.007830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006029s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.004368s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000043s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2014-11-18T18:11:51+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/details.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+ERR: 非法操作:details
+
+[ 2014-11-18T18:11:57+08:00 ] 127.0.0.1 /lcvip/index.php/home/index/details.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001009s ]
+ERR: 非法操作:details
+

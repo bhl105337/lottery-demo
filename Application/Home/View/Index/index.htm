@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>结果参考</title>
+    <meta name="renderer" content="webkit">
+    <meta name="keywords" content>
+    <meta name="description" content>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" href="__HOME__css/bootstrap.min.css">
+    <link rel="stylesheet" href="__HOME__css/kit.min.css">
+    <link rel="stylesheet" href="__HOME__css/style.css">
+    <!--<link rel="stylesheet" href="css/common.css">-->
+    <link rel="stylesheet" href="__HOME__iconfont/iconfont.css">
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?2ba965caf17e122f562b7f8b6ebe4f60";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body ng-controller="openCtrl" class="ng-scope">
+<style>
+    .opentime b{ background-image:url(__HOME__img/lot_icon.png); }
+
+    .lot-result .r3{ background-image:url(__HOME__img/clock.jpg); }
+
+    tbody{
+        display:table-row-group;
+        vertical-align:middle;
+        border-color:inherit;
+    }
+
+    tr{
+        display:table-row;
+        vertical-align:inherit;
+        border-color:inherit;
+    }
+</style>
+<section class="vbox">
+    <section class="scrollable" id="msgcontainer">
+        <section class="hbox stretch">
+            <section id="content">
+                <section class="vbox-nouse">
+                    <section class="container container-h bg-white scrollable wrapper wrapper-xxs">
+                        <header>
+                            <div class="banner">
+                                <img src="__HOME__img/0227.jpg" alt="" style="float:left; width:100%">
+                            </div>
+                        </header>
+                        <div class="bg-white lot-type clearfix">
+
+                            <a href="javascript:;" class="col-lg-1 col-sm-2 col-xs-6 ng-scope ng-binding active" ng-click="changeLotType(o.id)">北京</a>
+
+                            <a href="javascript:;" class="col-lg-1 col-sm-2 col-xs-6 ng-scope ng-binding nav-b-r-none nav-lg-b-r-none" ng-click="changeLotType(o.id)">加拿大</a>
+
+                        </div>
+                        <div class="lot-m clearfix">
+                            <div class="col-md-4 col-sm-6 lot-latest text-center">
+                                <div class="clearfix" style="display:inline-block">
+                                    <div class="pull-left t-logo"><img ng-src="img/bjkl8_logo.png" src="__HOME__img/bjkl8_logo.png" alt=""></div>
+                                    <div class="lot-section pull-left">
+                                        <p>最新： <i id="period" class="ng-binding" ng-hide="loadingLatest">823716</i> 期</p>
+                                        <div class="lot-section-sel pull-left ng-isolate-scope" mc-section-dropdown-list ddl-index="ddlSection.index" model="ddlSections" style="margin-top:-5px;">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn btn-default btn-sm border-radius0" ng-click="prev()" ng-disabled="ddlIndex===ddlModel.length-1"><i class="iconfont icon-zuo"></i></button>
+                                                <button data-toggle="dropdown" class="btn btn-default btn-sm dropdown-toggle border-radius0 ng-binding">
+                                                    823721
+                                                    <span class="iconfont icon-caretdown"></span>
+                                                    <ul class="dropdown-menu dropdown-select">
+                                                        <li class="ng-scope active">
+                                                            <a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 823723</a>
+                                                        </li>
+                                                        <li class="ng-scope">
+                                                            <a href="javascript:;" class="ng-binding"><input type="radio" name="d-s-r"> 823722</a>
+                                                        </li>
+                                                    </ul>
+                                                </button>
+                                                <button type="button" class="btn btn-default btn-sm border-radius0" ng-click="next()" ng-disabled="ddlIndex===ddlModel.length-1"><i class="iconfont icon-you"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 open-cutdown no-padder">
+                                <span style="display: none;overflow:hidden;">彩种已关闭</span>
+                                <span style="display: none"><i>官网结束</i><br>预计恢复时间：<b></b></span>
+                                <div class="opentime ng-isolate-scope" style="display: inline-block;" mc-timer ms="tim" end-ms="endplay">
+                                    <span>下一期：</span>
+                                    <b class="ng-binding ng-hide" ng-show="t.hour>0">00</b>
+                                    <span ng-show="t.hour>0" class="ng-hide">小时</span>
+                                    <b class="ng-binding">01</b>
+                                    <span>分</span>
+                                    <b class="ng-binding">01</b>
+                                    <span>秒</span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 lot-result">
+                                <div class="r1" data-state="0" ng-show="!!!opening">
+                                    <span class="cyanBlue ng-binding">{$datafind.num1}</span>
+                                    <label class="">+</label>
+                                    <span class="cyanBlue ng-binding">{$datafind.num2}</span>
+                                    <label class="">+</label>
+                                    <span class="cyanBlue ng-binding">{$datafind.num3}</span>
+                                    <label class="">=</label>
+                                    <span class="skyBlue ng-binding">{$datafind.total}</span>
+                                </div>
+                                <div class="r2" ng-show="!!!opening">
+                                    <span
+                                    <if condition="$datafind.is_da eq 1">class="badge ng-binding red-info"
+                                        <else/>
+                                        class="badge ng-binding blue-info"
+                                    </if>
+                                    >
+                                    {$datafind.BigOrSmall}
+                                    </span>
+
+                                    <span
+                                    <if condition="$datafind.is_dan eq 1">class="badge ng-binding red-info"
+                                        <else/>
+                                        class="badge ng-binding blue-info"
+                                    </if>
+                                    >
+                                    {$datafind.OneOrDouble}
+                                    </span>
+                                </div>
+                                <div class="r3 ng-hide" ng-show="!!!opening">
+                                    等待结果 <img src="__HOME__img/icon-status-status-dots-anim-16.gif" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <section class="panel panel-default m-b-none ng-isolate-scope" infinite-scroll="getOpenHistory()" infinite-scroll-disabled="busyMsg" infinite-scroll-distance="0" infinite-scroll-container="msgcontainer">
+                            <header class="panel-heading">
+                                <div class="btn-group" data-toggle="buttons" style=" width:100%">
+                                    <span class="arrow bottom h-ab-result"></span>
+                                    <button class="col-xs-6 btn btn-sm btn-facebook"><i class="iconfont icon-jinrongtubiao_jieguo"></i>结果</button>
+                                    <button class="col-xs-6 btn btn-sm btn-twitter"><i class="iconfont icon-tubiaozoushitu"></i>走势图</button>
+                                </div>
+                            </header>
+
+                            <div class="table-responsive" ng-show="displayResult===0" style="overflow-x: hidden;">
+                                <table class="table table-striped b-light" id="results">
+                                    <thead>
+                                    <tr>
+                                        <th>期号</th>
+                                        <th>时间</th>
+                                        <th>号码</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <foreach name="datalist" item="dvo">
+                                        <tr class="ng-scope">
+                                            <td class="ng-binding">{$dvo.order_no}</td>
+                                            <td class="ng-binding">{$dvo.end_time}</td>
+                                            <td class="ng-binding">{$dvo.result}</td>
+                                        </tr>
+                                    </foreach>
+                                    </tbody>
+                                </table>
+
+                                <table class="table table-striped tbl-trend b-light" style="display:none" id="trends">
+                                    <thead>
+                                    <tr>
+                                        <th>期号</th>
+                                        <th>值</th>
+                                        <th>大</th>
+                                        <th>小</th>
+                                        <th>单</th>
+                                        <th>双</th>
+                                        <th>大单</th>
+                                        <th>大双</th>
+                                        <th>小单</th>
+                                        <th>小双</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <if condition="$trendlist neq null">
+                                        <foreach name="trendlist" item="tvo">
+                                            <tr>
+                                                <td class="ng-binding">{$tvo.order_no}</td>
+                                                <td class="font-bold ng-binding">{$tvo.result}</td>
+                                                <td>
+                                                    <if condition="$tvo.da eq 1"><span class="badge blue-info ng-binding red-info">大</span></if>
+                                                </td>
+                                                <td>
+                                                    <if condition="$tvo.xiao eq 1"><span class="badge blue-info ng-binding">小</span></if>
+                                                </td>
+                                                <td>
+                                                    <if condition="$tvo.dan eq 1"><span class="badge blue-info ng-binding">单</span></if>
+                                                </td>
+                                                <td>
+                                                    <if condition="$tvo.shuang eq 1"><span class="badge blue-info ng-binding red-info">双</span></if>
+                                                </td>
+                                                <td>
+                                                    <if condition="$tvo.dd eq 1"><span class="badge blue-info ng-binding">大单</span></if>
+                                                </td>
+                                                <td>
+                                                    <if condition="$tvo.ds eq 1"><span class="badge blue-info ng-binding red-info">大双</span></if>
+                                                </td>
+                                                <td>
+                                                    <if condition="$tvo.xd eq 1"><span class="badge blue-info ng-binding">小单</span></if>
+                                                </td>
+                                                <td>
+                                                    <if condition="$tvo.xs eq 1"><span class="badge blue-info ng-binding red-info">小双</span></if>
+                                                </td>
+                                            </tr>
+                                        </foreach>
+                                    </if>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                    </section>
+                </section>
+            </section>
+        </section>
+    </section>
+</section>
+
+<script src="__HOME__js/jquery_1.8.3.min.js"></script>
+<script src="__HOME__js/angular_1.2.16.min.js"></script>
+<script src="__HOME__js/common.js"></script>
+</body>
+</html>

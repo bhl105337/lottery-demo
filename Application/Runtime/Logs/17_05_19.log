@@ -1,0 +1,259 @@
+[ 2017-05-19T11:16:39+08:00 ] ::1 /lottery/index.php/admin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.001089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003129s ]
+
+[ 2017-05-19T11:26:13+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005680s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.005617s ]
+SQL: SELECT * FROM `tp_users`  [ RunTime:0.000431s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2017-05-19T11:34:13+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.015353s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.011786s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.008073s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000315s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-05-19T11:43:55+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001362s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005002s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.005379s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.005326s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000304s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000287s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no LIMIT 1   [ RunTime:0.000260s ]
+
+[ 2017-05-19T11:44:57+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005559s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.004059s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.004511s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000327s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000314s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no LIMIT 1   [ RunTime:0.000277s ]
+
+[ 2017-05-19T11:45:01+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005847s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.004948s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.004448s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000352s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000466s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no LIMIT 1   [ RunTime:0.000389s ]
+
+[ 2017-05-19T11:47:29+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011526s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.005961s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.005634s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000348s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000276s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000299s ]
+
+[ 2017-05-19T11:48:46+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004609s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.004643s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.004998s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000316s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000346s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2017-05-19T11:56:59+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004559s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.004226s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.003869s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000266s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000275s ]
+ERR: Think\Controller:is_da_xiao方法不存在！
+
+[ 2017-05-19T11:58:16+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005851s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.004518s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.004808s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000254s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000297s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2017-05-19T11:59:17+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.004185s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.004209s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.004123s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000376s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000344s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000355s ]
+
+[ 2017-05-19T12:00:04+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005686s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.005959s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.006370s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000406s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000359s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000390s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.009984s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2017-05-19T12:04:30+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.011545s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.009561s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.006553s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000337s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000392s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000369s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+
+[ 2017-05-19T12:05:03+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.005201s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.004710s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.004816s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000265s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.008609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2017-05-19T12:31:29+08:00 ] ::1 /lottery/index.php/home
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\WWW\lottery\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_users` [ RunTime:0.010361s ]
+SQL: SHOW COLUMNS FROM `tp_data_trend` [ RunTime:0.005914s ]
+SQL: SHOW COLUMNS FROM `tp_play_data` [ RunTime:0.005038s ]
+SQL: SELECT * FROM `tp_data_trend`  [ RunTime:0.000334s ]
+SQL: SELECT * FROM `tp_play_data`  [ RunTime:0.000333s ]
+SQL: SELECT * FROM `tp_play_data` ORDER BY order_no desc LIMIT 1   [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.010819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
